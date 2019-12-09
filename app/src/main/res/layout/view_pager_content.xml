@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/base_linear"
+        android:background="@android:color/holo_blue_dark"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin_25"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_pager_sub_text"
+                android:text=""
+                android:textSize="@dimen/text_size_20"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/margin_40"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_pager_header"
+                android:text=""
+                android:textSize="@dimen/text_size_30"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toTopOf="@id/view_pager_sub_text"
+                app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/skip_text"
+                android:text="@string/skip"
+                android:textSize="@dimen/text_size_20"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="@dimen/margin_25"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

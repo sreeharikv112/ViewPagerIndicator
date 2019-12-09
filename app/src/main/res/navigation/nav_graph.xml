@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/introViewPagerFragment">
+
+    <fragment android:id="@+id/introViewPagerFragment"
+              android:name="com.demo.viewpagerindicator.ui.intro.IntroViewPagerFragment"
+              android:label="fragment_intro_view_pager"
+              tools:layout="@layout/fragment_intro_view_pager"/>
+</navigation>
