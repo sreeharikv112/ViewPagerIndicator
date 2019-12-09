@@ -3,6 +3,8 @@
 
 Create Introduction screen with ViewPager2 and Circle Indicators. No custom Library used.
 
+Full source code of [Article in Medium](https://medium.com/@sreeharikv112/create-introduction-screen-with-viewpager2-and-circle-indicators-no-custom-library-please-68d5b1fec8b1)  Create Introduction screen with ViewPager2 and Circle Indicators
+
 ## Libraries used <br>
 - androidx.viewpager2.widget.ViewPager2
 - com.google.android.material.tabs.TabLayout
