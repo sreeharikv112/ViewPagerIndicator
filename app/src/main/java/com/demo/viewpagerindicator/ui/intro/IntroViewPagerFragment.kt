@@ -43,6 +43,4 @@ class IntroViewPagerFragment : Fragment() {
         val ar3 = arrayOf(getString(R.string.intro_title_3), getString(R.string.intro_sub_title_3) ,"B")
         return listOf(ar1,ar2,ar3)
     }
-
-
 }

@@ -34,11 +34,4 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    /**
-     * Method to update screen title and subtitle from Fragments
-     */
-    fun setToolbarTitle(title: CharSequence, subtitle: CharSequence = "") {
-        toolbar.title = title
-        toolbar.subtitle = subtitle
-    }
 }

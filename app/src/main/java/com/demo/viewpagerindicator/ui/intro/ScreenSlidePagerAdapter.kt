@@ -30,18 +30,6 @@ class ScreenSlidePagerAdapter(
                 fragment.arguments = Bundle().apply {
                     putStringArray(INTRO_STRING_OBJECT, listOfPagerContents[2])
                 }
-            3 ->
-                fragment.arguments = Bundle().apply {
-                    putStringArray(INTRO_STRING_OBJECT, listOfPagerContents[2])
-                }
-            4 ->
-                fragment.arguments = Bundle().apply {
-                    putStringArray(INTRO_STRING_OBJECT, listOfPagerContents[2])
-                }
-            5 ->
-                fragment.arguments = Bundle().apply {
-                    putStringArray(INTRO_STRING_OBJECT, listOfPagerContents[2])
-                }
         }
         return fragment
     }
