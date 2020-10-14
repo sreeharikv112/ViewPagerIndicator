@@ -18,6 +18,8 @@
             android:layout_height="wrap_content"
             app:tabBackground="@drawable/tab_pager_selector"
             app:tabGravity="center"
+            app:tabPaddingStart="@dimen/tab_padding_start"
+            app:tabPaddingEnd="@dimen/tab_padding_end"
             app:tabIndicatorHeight="0dp"
             android:layout_gravity="bottom"
     />
